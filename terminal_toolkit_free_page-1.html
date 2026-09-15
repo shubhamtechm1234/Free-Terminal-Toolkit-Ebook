@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terminal Toolkit — Free Ebook</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap');
+*{box-sizing:border-box}
+body{margin:0;background:#07110e;color:#eafff5;font-family:Inter,Arial,sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.16;background-image:linear-gradient(rgba(53,255,173,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(53,255,173,.08) 1px,transparent 1px);background-size:40px 40px}
+nav{height:74px;border-bottom:1px solid #1c3a30;background:#081511dd;backdrop-filter:blur(14px);display:flex;align-items:center;justify-content:space-between;padding:0 7%;position:relative;z-index:2}
+.logo{font-weight:800;font-size:21px;letter-spacing:.5px}.logo b{color:#35ffad}
+.navtag{font:600 13px "JetBrains Mono";color:#82a99a}
+.hero{max-width:1120px;margin:auto;padding:82px 24px 70px;text-align:center;position:relative}
+.glow{position:absolute;width:380px;height:380px;background:#00ff9d22;filter:blur(80px);border-radius:50%;left:50%;top:30px;transform:translateX(-50%);z-index:-1}
+.terminal{max-width:760px;margin:0 auto 38px;text-align:left;border:1px solid #23483a;background:#0b1915;border-radius:16px;box-shadow:0 25px 70px #0008;overflow:hidden}
+.termbar{height:42px;border-bottom:1px solid #1c3a30;display:flex;align-items:center;padding:0 15px;gap:7px}.dot{width:10px;height:10px;border-radius:50%;background:#315247}.termtitle{margin-left:8px;color:#719286;font:500 12px "JetBrains Mono"}
+.termcode{padding:20px 22px;font:500 13px/1.8 "JetBrains Mono";color:#a9cfc0}.prompt{color:#35ffad}.cmd{color:#fff}
+.badge{display:inline-flex;padding:9px 15px;border:1px solid #1d7054;background:#0c2a20;border-radius:999px;color:#62ffbe;font-size:13px;font-weight:800;letter-spacing:.5px}
+h1{font-size:clamp(43px,7vw,78px);line-height:.98;letter-spacing:-3px;margin:23px 0 20px}
+h1 span{color:#35ffad}
+.sub{max-width:680px;margin:auto;color:#9bb7ad;font-size:18px;line-height:1.7}
+.download{display:inline-flex;align-items:center;gap:10px;margin-top:30px;padding:17px 27px;border-radius:13px;background:#35ffad;color:#03120c;text-decoration:none;font-weight:900;font-size:17px;box-shadow:0 12px 35px #35ffad30;transition:.2s}
+.download:hover{transform:translateY(-2px);box-shadow:0 16px 45px #35ffad45}
+.note{font:500 12px "JetBrains Mono";color:#6e8c81;margin-top:13px}
+.section{max-width:1000px;margin:auto;padding:0 24px 80px}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:#0b1915;border:1px solid #1d3b31;border-radius:15px;padding:23px;text-align:left}.icon{font-size:25px}.card h3{margin:12px 0 7px;font-size:17px}.card p{margin:0;color:#809d92;font-size:14px;line-height:1.55}
+.ebook{margin-top:20px;padding:26px;border:1px solid #1d3b31;background:linear-gradient(135deg,#0b1915,#0d211a);border-radius:18px;display:flex;align-items:center;justify-content:space-between;gap:20px}.ebook h2{margin:0 0 7px;font-size:23px}.ebook p{margin:0;color:#8fa99f}.smallbtn{padding:13px 18px;border-radius:10px;border:1px solid #27654e;color:#8dffcb;text-decoration:none;font-weight:800;white-space:nowrap}
+footer{text-align:center;border-top:1px solid #173229;padding:28px;color:#55766a;font-size:13px}
+@media(max-width:720px){nav{padding:0 20px}.navtag{display:none}.hero{padding-top:55px}.features{grid-template-columns:1fr}.ebook{display:block}.smallbtn{display:inline-block;margin-top:17px}.terminal{margin-bottom:28px}h1{letter-spacing:-2px}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">CAREER<span style="color:#35ffad">INIT</span><span style="color:#58776b">WITH</span>SHUBHAM</div>
+  <div class="navtag">~/terminal-toolkit</div>
+</nav>
+
+<main>
+<section class="hero">
+  <div class="glow"></div>
+  <div class="terminal">
+    <div class="termbar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="termtitle">terminal-toolkit — bash</span></div>
+    <div class="termcode"><span class="prompt">user@codenotes</span>:~$ <span class="cmd">cat terminal-toolkit.pdf</span><br>
+    <span style="color:#35ffad">✓</span> Free ebook ready<br>
+    <span style="color:#7d9d91">→</span> Downloading practical terminal knowledge...</div>
+  </div>
+
+  <div class="badge">⚡ 100% FREE EBOOK</div>
+  <h1>Master the <span>Terminal.</span><br>One Toolkit.</h1>
+  <p class="sub">A practical Terminal Toolkit ebook for developers, beginners and DevOps learners. Download it free and start learning useful commands.</p>
+
+  <div style="display:flex;justify-content:center;gap:12px;flex-wrap:wrap">
+    <a class="download" href="https://drive.google.com/uc?export=download&id=1naYJCaYjCTkaXLIARtz1upRIlmOQXdjI" target="_blank" rel="noopener">
+      ⬇ Download Free Ebook
+    </a>
+    <a class="download" style="background:#ff1744;color:#fff" href="https://youtube.com/@careerinitwithshubham?si=gGYAq6ZwLU5PZ1eJ" target="_blank" rel="noopener">
+      ▶ Subscribe on YouTube
+    </a>
+  </div>
+  <div class="note">PDF • FREE • INSTANT ACCESS</div>
+</section>
+
+<section class="section">
+  <div class="features">
+    <div class="card"><div class="icon">⌨️</div><h3>Practical Commands</h3><p>Useful terminal commands presented in a quick-reference format.</p></div>
+    <div class="card"><div class="icon">🚀</div><h3>Beginner Friendly</h3><p>Designed to help you become comfortable working from the command line.</p></div>
+    <div class="card"><div class="icon">🧰</div><h3>Quick Toolkit</h3><p>Keep the ebook handy whenever you need a terminal command.</p></div>
+  </div>
+
+  <div class="ebook">
+    <div><h2>📘 Terminal Toolkit</h2><p>Free digital ebook • Download instantly</p></div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap">
+      <a class="smallbtn" href="https://drive.google.com/uc?export=download&id=1naYJCaYjCTkaXLIARtz1upRIlmOQXdjI" target="_blank" rel="noopener">Download PDF →</a>
+      <a class="smallbtn" style="border-color:#a91c3c;color:#ff8da2" href="https://youtube.com/@careerinitwithshubham?si=gGYAq6ZwLU5PZ1eJ" target="_blank" rel="noopener">▶ YouTube</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 CareerInitWithShubham • Free learning resources</footer>
+</body>
+</html>
